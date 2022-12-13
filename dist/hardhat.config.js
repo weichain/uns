@@ -113,6 +113,17 @@ const config = {
             accounts: process.env.POLYGON_UNS_PRIVATE_KEY ? [process.env.POLYGON_UNS_PRIVATE_KEY] : undefined,
             loggingEnabled: true,
         },
+        opntestnet: {
+            url: 'http://174.138.9.169:9650/ext/bc/VUKSzFZKckx4PoZF9gX5QAqLPxbLzvu1vcssPG5QuodaJtdHT/rpc',
+            chainId: 43214913,
+            accounts: [
+                '0x3afa411532edd33c4173324228b30cc9c49e8a541d76dde52d719f07c81abfec',
+                '0xf33f9f1f15818a1f42ae8310578afb3f4fc4b116a4be199abb0cc1c7fe3b897c',
+                '0xc617af3fd9c42b17bfeb51ecaedf10359a01ae481f998ad834667cb28e46bd92',
+                '0xf59753119bb9728fd1e2b573b8dd01b221ac1df671feac8b0a2559bac276861c',
+            ],
+            loggingEnabled: true,
+        },
     },
     typechain: {
         outDir: 'types',
@@ -170,6 +181,12 @@ const config = {
             mainnet: [],
             mumbai: ['0xc152ba5caa9db5883f2cfefb984610fd3bd7914a'],
             polygon: ['0xd8263053a6d08ef3acbf2381f144b90841726233'],
+            opntestnet: [
+                '0xa54E26adA7480F4009935481aEAba54e0cC5d581',
+                '0xe319a2D229AB2137b149723823f87D3836b462A5',
+                '0xbB74566cc197738d2C2847D9a1aFCeA4F6d53e66',
+                '0xF48E6F366284B2F7AEFd231D3Dae66f5d4700cA9',
+            ],
         },
     },
 };

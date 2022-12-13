@@ -155,6 +155,14 @@ const config: HardhatUserConfig = {
       accounts: process.env.POLYGON_UNS_PRIVATE_KEY ? [process.env.POLYGON_UNS_PRIVATE_KEY] : undefined,
       loggingEnabled: true,
     },
+    opntestnet: {
+      url: 'http://174.138.9.169:9650/ext/bc/VUKSzFZKckx4PoZF9gX5QAqLPxbLzvu1vcssPG5QuodaJtdHT/rpc',
+      chainId: 43214913,
+      accounts: [
+        // add private keys of accounts
+      ],
+      loggingEnabled: true,
+    },
   },
   typechain: {
     outDir: 'types',
@@ -212,6 +220,13 @@ const config: HardhatUserConfig = {
       mainnet: [],
       mumbai: ['0xc152ba5caa9db5883f2cfefb984610fd3bd7914a'],
       polygon: ['0xd8263053a6d08ef3acbf2381f144b90841726233'],
+      opntestnet: [
+        // OPN accounts
+        '0xa54E26adA7480F4009935481aEAba54e0cC5d581',
+        '0xe319a2D229AB2137b149723823f87D3836b462A5',
+        '0xbB74566cc197738d2C2847D9a1aFCeA4F6d53e66',
+        '0xF48E6F366284B2F7AEFd231D3Dae66f5d4700cA9',
+      ],
     },
   },
 };

@@ -408,6 +408,92 @@
                 }
             }
         },
+        "31337": {
+            "contracts": {
+                "CNSRegistry": {
+                    "address": "0xA51c1fc2f0D1a1b8494Ed1FE312d7C3a78Ed91C0",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x0d",
+                    "forwarder": "0xc6e7DF5E7b4f2A278906862b61205850344D4e7d"
+                },
+                "SignatureController": {
+                    "address": "0x0DCd1Bf9A1b36cE34237eEaFef220932846BCD82",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x0e"
+                },
+                "MintingController": {
+                    "address": "0x9A676e781A523b5d0C0e43731313A708CB607508",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x0f"
+                },
+                "URIPrefixController": {
+                    "address": "0x0B306BF915C4d645ff596e518fAf3F9669b97016",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x10"
+                },
+                "Resolver": {
+                    "address": "0x3Aa5ebB10DC797CAC828524e59A333d0A371443c",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x14",
+                    "forwarder": "0x59b670e9fA9D0A427751Af201D676719a970857b"
+                },
+                "WhitelistedMinter": {
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "legacyAddresses": []
+                },
+                "DomainZoneController": {
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "legacyAddresses": []
+                },
+                "TwitterValidationOperator": {
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "legacyAddresses": []
+                },
+                "FreeMinter": {
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "legacyAddresses": []
+                },
+                "MintableERC721Predicate": {
+                    "address": "0xa85233C63b9Ee964Add6F2cffe00Fd84eb32338f",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x19"
+                },
+                "RootChainManager": {
+                    "address": "0x7a2088a1bFc9d81c55368AE168C2C02570cB814F",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x1b"
+                },
+                "ProxyAdmin": {
+                    "address": "0xc3e53F4d16Ae77Db1c982e75a937B9f60FE63690",
+                    "legacyAddresses": []
+                },
+                "UNSRegistry": {
+                    "address": "0x84eA74d481Ee0A5332c457a4d796187F6Ba67fEB",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x21",
+                    "implementation": "0xE6E340D132b5f46d1e472DebcD681B2aBc16e57E",
+                    "forwarder": "0x84eA74d481Ee0A5332c457a4d796187F6Ba67fEB"
+                },
+                "MintingManager": {
+                    "address": "0xa82fF9aFd8f496c3d6ac40E2a0F282E47488CFc9",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x23",
+                    "implementation": "0x9E545E3C0baAB3E08CdfD552C960A1050f373042",
+                    "forwarder": "0x851356ae760d987E095750cCeb3bC6014560891C"
+                },
+                "ProxyReader": {
+                    "address": "0x70e0bA845a1A0F2DA3359C97E0285013525FFC49",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x29",
+                    "implementation": "0x998abeb3E57409262aE5b751f60747921B33613E"
+                },
+                "DotCoinBurner": {
+                    "address": "0x8f86403A4DE0BB5791fa46B8e795C547942fE4Cf",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x2d"
+                }
+            }
+        },
         "80001": {
             "contracts": {
                 "UNSRegistry": {
@@ -506,6 +592,92 @@
                     "address": "0x65c6abdf52aD08A53A77488D1Acc5c666ada840F",
                     "legacyAddresses": [],
                     "deploymentBlock": "0x01bbafc7"
+                }
+            }
+        },
+        "43214913": {
+            "contracts": {
+                "CNSRegistry": {
+                    "address": "0xbaBeBBB5d61e77147E352faa6f74FC6Ef60510C7",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x13c2",
+                    "forwarder": "0xfe2d73CE7Ef65bF994c8a83796E9F0389aeD1856"
+                },
+                "SignatureController": {
+                    "address": "0x41E24f1ADF41304Dc33E083B71593cc9D8442E79",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x13c3"
+                },
+                "MintingController": {
+                    "address": "0x9Ead6060f6810FB56A6b47E6776658bC6cb8De28",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x13c4"
+                },
+                "URIPrefixController": {
+                    "address": "0xeC9714BB05050DA640a8491e7155905eE2F4e1ba",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x13c5"
+                },
+                "Resolver": {
+                    "address": "0x98b14cbd6082978655C0a75F063841C7D935ec94",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x13c8",
+                    "forwarder": "0xbdc229B5417BFE8864df9668fd5B6173f7Df2a7A"
+                },
+                "WhitelistedMinter": {
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "legacyAddresses": []
+                },
+                "DomainZoneController": {
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "legacyAddresses": []
+                },
+                "TwitterValidationOperator": {
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "legacyAddresses": []
+                },
+                "FreeMinter": {
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "legacyAddresses": []
+                },
+                "MintableERC721Predicate": {
+                    "address": "0xde2FE129dbe339A65E815510185CBf9034B114FC",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x13be"
+                },
+                "RootChainManager": {
+                    "address": "0xC72BcCc6b33547bDF2Ae7bCAd4cA688676d7C352",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x139b"
+                },
+                "ProxyAdmin": {
+                    "address": "0x76B5b24221b6D823e4308f388c1Df16842287Fea",
+                    "legacyAddresses": []
+                },
+                "UNSRegistry": {
+                    "address": "0x71e8548FBd383ff73Cd4a23F6917C9E2B133d6AD",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x13cc",
+                    "implementation": "0xF13CE3b9F100B29D3A2F69DBA9377cf111b6F4f9",
+                    "forwarder": "0x71e8548FBd383ff73Cd4a23F6917C9E2B133d6AD"
+                },
+                "MintingManager": {
+                    "address": "0xa28c8f07E88f865a60b8034A1Ca4234E4E91C7c4",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x13cd",
+                    "implementation": "0xc9271C02569d4830e55180E1987E29150C35397c",
+                    "forwarder": "0x221E2B50Ea5B5A1628051709476F988175ba4217"
+                },
+                "DotCoinBurner": {
+                    "address": "0x17597c3954D60e7286A2A1e275BCd40d40B988A5",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x13cb"
+                },
+                "ProxyReader": {
+                    "address": "0x52d49f047249aFfdD667B8EE4AD82e8cf82117b6",
+                    "legacyAddresses": [],
+                    "deploymentBlock": "0x13d3",
+                    "implementation": "0xd215b321F0dCaCE174B7D3ECF04b831494f420b3"
                 }
             }
         }
